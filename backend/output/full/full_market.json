@@ -1,0 +1,105 @@
+{
+    "ticker": "KO",
+    "date": "2026-01-16",
+    "selected_indicators": [
+        "close_50_sma",
+        "close_10_ema",
+        "macd",
+        "macds",
+        "macdh",
+        "rsi",
+        "boll",
+        "boll_ub",
+        "boll_lb",
+        "atr",
+        "vwma"
+    ],
+    "market_overview": {
+        "trend_direction": "Sideways",
+        "momentum_state": "Neutral",
+        "volatility_level": "Moderate",
+        "volume_condition": "Neutral"
+    },
+    "indicator_analysis": [
+        {
+            "indicator": "close_50_sma",
+            "indicator_full_name": "50-day Simple Moving Average",
+            "signal": "Price is above the 50-day SMA.",
+            "implication": "This suggests a generally positive or neutral short-to-medium term trend."
+        },
+        {
+            "indicator": "close_10_ema",
+            "indicator_full_name": "10-day Exponential Moving Average",
+            "signal": "Price is above the 10-day EMA.",
+            "implication": "This indicates a short-term bullish sentiment."
+        },
+        {
+            "indicator": "macd",
+            "indicator_full_name": "Moving Average Convergence Divergence",
+            "signal": "MACD line (0.1168) is above the signal line (-0.0714).",
+            "implication": "This suggests upward momentum is present or strengthening."
+        },
+        {
+            "indicator": "macdh",
+            "indicator_full_name": "MACD Histogram",
+            "signal": "MACD histogram is positive (0.1882).",
+            "implication": "This indicates that the MACD line is above the signal line, suggesting bullish momentum."
+        },
+        {
+            "indicator": "rsi",
+            "indicator_full_name": "Relative Strength Index",
+            "signal": "RSI is 52.94.",
+            "implication": "The RSI is in the neutral zone, indicating neither overbought nor oversold conditions, suggesting a balanced market."
+        },
+        {
+            "indicator": "boll",
+            "indicator_full_name": "Bollinger Bands Middle Line",
+            "signal": "Price (70.44) is above the middle Bollinger Band (69.85).",
+            "implication": "This indicates a bullish bias in the short term."
+        },
+        {
+            "indicator": "boll_ub",
+            "indicator_full_name": "Upper Bollinger Band",
+            "signal": "Price (70.44) is below the upper Bollinger Band (71.88).",
+            "implication": "The price is not at the extreme upper end of its recent range."
+        },
+        {
+            "indicator": "boll_lb",
+            "indicator_full_name": "Lower Bollinger Band",
+            "signal": "Price (70.44) is above the lower Bollinger Band (67.83).",
+            "implication": "The price is not at the extreme lower end of its recent range."
+        },
+        {
+            "indicator": "atr",
+            "indicator_full_name": "Average True Range",
+            "signal": "ATR is 0.9239.",
+            "implication": "This indicates moderate volatility."
+        },
+        {
+            "indicator": "vwma",
+            "indicator_full_name": "Volume Weighted Moving Average",
+            "signal": "Price (70.44) is above the VWMA (69.79).",
+            "implication": "This suggests that the recent price action, weighted by volume, is in an uptrend."
+        }
+    ],
+    "price_action_summary": {
+        "recent_high_low": "Trading near the upper end of the recent range, but below the Bollinger Band upper limit.",
+        "support_levels": [
+            "70.00",
+            "69.00"
+        ],
+        "resistance_levels": [
+            "71.00",
+            "71.88"
+        ],
+        "short_term_behavior": "The price has shown a recent upward movement, trading above key short-term moving averages and approaching recent highs."
+    },
+    "market_sentiment": {
+        "sentiment_label": "Bullish"
+    },
+    "key_risks": [
+        "Potential for a pullback if resistance at the upper Bollinger Band is not overcome.",
+        "The RSI in the neutral zone could indicate a lack of strong conviction."
+    ],
+    "short_term_outlook": "The stock shows a slightly bullish short-term outlook, supported by its position above key moving averages and positive MACD signals, but faces resistance near the upper Bollinger Band. Volatility remains moderate."
+}

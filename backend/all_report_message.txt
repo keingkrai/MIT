@@ -1,0 +1,32 @@
+🏷️ Stock Data Source Comparison Result:
+
+===== TOTAL RECORDS CHECK (KO - US) =====
+YFinance (KO):      250
+TwelveData (KO):    250
+TradingView (KO):   0
+
+
+===== SIMILARITY SCORE =====
+YFinance Score: 66
+TwelveData Score: 66
+TradingView Score: 0
+
+🏆 Best Source: YFINANCE
+
+
+🌐 Social Media News: 
+Bluesky news fetched for KO: 32 posts found.
+Subreddit news fetched for KO: 2 posts found.
+
+Mastodon news fetched for KO: 120 posts found.
+📰 News :
+Fetched 50 news items for KO from Finnhub.
+Fetched 12 news items for KO from Reddit.
+Fetched 10 news items for KO from YFinance.
+Fetched 50 news items for KO from Alpha Vantage.
+
+🌏 Global News: 
+Reddit global news have : 40 posts.
+Yfinance global news have : 50 posts.
+Finnhub global news have : 50 posts.
+

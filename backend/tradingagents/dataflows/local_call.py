@@ -1,0 +1,209 @@
+from typing import Annotated
+from .local import ryt9_get_company_news, alphavantage_get_company_news, get_world_news_yf, fetch_reddit_world_news, fetch_reddit_symbol_top_praw, fetch_mastodon_stock_posts, fetch_bsky_stock_posts, pick_fundamental_source, finnhub_get_company_news, reddit_get_company_news, yfinance_get_company_news, fetch_finnhub_world_news
+import os, requests, asyncio
+from rich.console import Console
+
+console = Console()
+ 
+#fundamental data
+async def get_fundamentals_local(ticker, curr_date):
+    """
+    มีการรับ parameter ตามรูปบบที่ต้นฉบับใช้เพื่อความรวดเร็วและลดการแก้ไขมากที่สุด
+    แต่ในฟังก์ชันนี้จะใช้แค่ ticker เพื่อดึงข้อมูล
+    """
+        
+    res = await pick_fundamental_source(ticker)
+    
+    print(f'\n\n\n [get_fundamentals_local] Chosen fundamental data source result:\n{res}\n\n\n')
+        
+    return res
+
+async def get_10years_fundamentals(ticker):
+    """
+    Fetch comprehensive fundamental data for up to 10 years efficiently.
+    """
+    from .local import pick_fundamental_source_10years
+    
+    res = await pick_fundamental_source_10years(ticker)
+    
+    print(f'\n\n\n [get_10years_fundamentals] Chosen 10-year source result:\n{res}\n\n\n')
+    
+    return res
+
+#company news data
+def get_finnhub_company_news(
+    query: Annotated[str, "Search query or ticker symbol"],
+    start_date: Annotated[str, "Start date in yyyy-mm-dd format"],
+    end_date: Annotated[str, "End date in yyyy-mm-dd format"],
+):
+    res = finnhub_get_company_news(query)
+    # print(f'\n\n\n [get_finnhub_company_news] Finnhub company news result:\n{res}\n\n\n')
+    return res
+
+def get_reddit_company_news(
+    query: Annotated[str, "Search query or ticker symbol"],
+    start_date: Annotated[str, "Start date in yyyy-mm-dd format"],
+    end_date: Annotated[str, "End date in yyyy-mm-dd format"],
+) -> str:
+    
+    res = reddit_get_company_news(query)
+    # print(f'\n\n\n [get_reddit_company_news] Reddit company news result:\n{res}\n\n\n')
+    return res
+
+def get_yfinance_company_news(
+    query: Annotated[str, "Query to search with"],
+    curr_date: Annotated[str, "Curr date in yyyy-mm-dd format"],
+    look_back_days: Annotated[int, "how many days to look back"],
+) -> str:
+
+    res = yfinance_get_company_news(query)
+    # print(f'\n\n\n [get_yfinance_company_news] YFinance company news result:\n{res}\n\n\n')
+    return res
+
+def get_alphavantage_company_news(
+    query: Annotated[str, "Query to search with"],
+    start_date: Annotated[str, "Start date in yyyy-mm-dd format"],
+    end_date: Annotated[str, "End date in yyyy-mm-dd format"],
+) -> str:
+
+    res = alphavantage_get_company_news(query)
+    # print(f'\n\n\n [get_alphavantage_company_news] AlphaVantage company news result:\n{res}\n\n\n')
+    return res
+
+def get_ryt9_company_news(
+    query: Annotated[str, "Query to search with"],
+    start_date: Annotated[str, "Start date in yyyy-mm-dd format"],
+    end_date: Annotated[str, "End date in yyyy-mm-dd format"],
+) -> str:
+    
+    res = ryt9_get_company_news(query)
+    # print(f'\n\n\n [get_ryt9_company_news] Ryt9 company news result:\n{res}\n\n\n')
+    return res
+
+#global news data
+def get_yfinance_world_news(
+    curr_date: Annotated[str, "Current date in yyyy-mm-dd format"],
+    look_back_days: Annotated[int, "Number of days to look back"] = 7,
+    limit: Annotated[int, "Maximum number of articles to return"] = 5,
+) -> str:
+
+    res = get_world_news_yf()
+    
+    count = len(res)
+    report_message =  f"Yfinance global news have : {count} posts."
+                     
+    # write text file
+    with open("all_report_message.txt", "a", encoding='utf-8') as file:
+        file.write(report_message + "\n")
+    # print(f'\n\n\n [get_reddit_world_news] Reddit world news result:\n{res}\n\n\n')
+    return res
+
+def get_reddit_world_news(
+    curr_date: Annotated[str, "Current date in yyyy-mm-dd format"],
+    look_back_days: Annotated[int, "Number of days to look back"] = 7,
+    limit: Annotated[int, "Maximum number of articles to return"] = 5,
+) -> str:
+
+    res = fetch_reddit_world_news()
+    
+    count = len(res)
+    report_message = f"🌏 Global News: \n" \
+                     f"Reddit global news have : {count} posts."
+                     
+    # write text file
+    with open("all_report_message.txt", "a", encoding='utf-8') as file:
+        file.write("\n" + report_message + "\n")
+        
+    return res
+
+def get_finnhub_world_news(
+    curr_date: Annotated[str, "Current date in yyyy-mm-dd format"],
+    look_back_days: Annotated[int, "Number of days to look back"] = 7,
+    limit: Annotated[int, "Maximum number of articles to return"] = 5,
+) -> str:
+
+    res = fetch_finnhub_world_news()
+    # print(f'\n\n\n [get_finnhub_world_news] Finnhub world news result:\n{res}\n\n\n')
+    
+    count = len(res)
+    report_message = f"Finnhub global news have : {count} posts."
+                     
+    # write text file
+    with open("all_report_message.txt", "a", encoding='utf-8') as file:
+        file.write(report_message + "\n\n")
+    return res
+
+#social media news
+def get_bluesky_news(
+    ticker: Annotated[str, "ticker symbol of the company"]
+):
+    res = fetch_bsky_stock_posts(ticker)
+    print(f'\n\n\n [get_bluesky_news] Bluesky news result:\n\n\n\n')
+
+    count = len(res)
+    report_message = f"🌐 Social Media News: \n" \
+                     f"Bluesky news fetched for {ticker}: {count} posts found."
+
+    # write text file
+    with open("all_report_message.txt", "a", encoding='utf-8') as file:
+        file.write("\n" + report_message + "\n")
+
+    return res
+
+def get_mastodon_news(
+    ticker: Annotated[str, "ticker symbol of the company"]
+):
+    res = fetch_mastodon_stock_posts(ticker)
+    print(f'\n\n\n [get_mastodon_news] Mastodon news result:\n\n\n\n')
+
+    count = len(res)
+    report_message = f"Mastodon news fetched for {ticker}: {count} posts found."
+
+    # write text file
+    with open("all_report_message.txt", "a") as file:
+        file.write(report_message + "\n")
+
+    return res
+
+def get_subreddit_news(
+    symbol: Annotated[str, "ticker symbol of the company"]
+):
+    res = fetch_reddit_symbol_top_praw(symbol)
+    print(f'\n\n\n [get_subreddit_news] Subreddit news result:\n\n\n\n')
+
+    count = len(res)
+    report_message = f"Subreddit news fetched for {symbol}: {count} posts found."
+
+    # write text file
+    with open("all_report_message.txt", "a") as file:
+        file.write(report_message + "\n\n")
+
+    return res
+
+async def get_social_async(
+    ticker: Annotated[str, "ticker symbol of the company"]
+):
+    """
+    Asynchronously fetch social media data from multiple sources in parallel.
+    Wraps synchronous fetchers in threads.
+    """
+    print(f"💬 Social Analyst: Fetching data for {ticker} asynchronously...")
+    
+    # Run synchronous fetchers in threads
+    results = await asyncio.gather(
+        asyncio.to_thread(get_bluesky_news, ticker),
+        asyncio.to_thread(get_mastodon_news, ticker),
+        asyncio.to_thread(get_subreddit_news, ticker),
+        return_exceptions=True
+    )
+    
+    # Combine results
+    final_output = []
+    for res in results:
+        if isinstance(res, Exception):
+            print(f"❌ Error in social fetch task: {res}")
+            final_output.append(f"Error fetching data: {res}")
+        else:
+            final_output.append(str(res))
+            
+    return "\n".join(final_output)

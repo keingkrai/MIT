@@ -1,0 +1,92 @@
+{
+  "symbol": "RBLX",
+  "chosen_source": "yfinance",
+  "scores": {
+    "yfinance": 8,
+    "finnhub": 3,
+    "alphavantage": 7
+  },
+  "completeness": {
+    "yfinance": 13,
+    "finnhub": 7,
+    "alphavantage": 12
+  },
+  "sections": {
+    "overview": {
+      "scores": {
+        "yfinance": 5,
+        "finnhub": 3,
+        "alphavantage": 4
+      },
+      "completeness": {
+        "yfinance": 6,
+        "finnhub": 7,
+        "alphavantage": 7
+      }
+    },
+    "balancesheet": {
+      "scores": {
+        "yfinance": 0,
+        "finnhub": 0,
+        "alphavantage": 0
+      },
+      "completeness": {
+        "yfinance": 3,
+        "finnhub": 0,
+        "alphavantage": 0
+      }
+    },
+    "cashflow": {
+      "scores": {
+        "yfinance": 1,
+        "finnhub": 0,
+        "alphavantage": 1
+      },
+      "completeness": {
+        "yfinance": 2,
+        "finnhub": 0,
+        "alphavantage": 3
+      }
+    },
+    "incomestatement": {
+      "scores": {
+        "yfinance": 2,
+        "finnhub": 0,
+        "alphavantage": 2
+      },
+      "completeness": {
+        "yfinance": 2,
+        "finnhub": 0,
+        "alphavantage": 2
+      }
+    }
+  },
+  "final_payload": {
+    "overview": {
+      "marketCap": 61039441533.048004,
+      "sharesOutstanding": null,
+      "peRatio": null,
+      "currency": "USD",
+      "exchange": "NYQ",
+      "name": "Roblox Corporation",
+      "sector": "Communication Services",
+      "industry": "Electronic Gaming & Multimedia"
+    },
+    "balancesheet": {
+      "totalAssets": 7175003000.0,
+      "totalLiabilities": 6966349000.0,
+      "shareholderEquity": 208654000.0
+    },
+    "cashflow": {
+      "operatingCashFlow": 822316000.0,
+      "freeCashFlow": 641300000.0,
+      "capitalExpenditures": null
+    },
+    "incomestatement": {
+      "totalRevenue": 3601979000.0,
+      "netIncome": -935384000.0,
+      "eps": null
+    }
+  },
+  "timestamp": "2025-12-16T06:14:30.891982+00:00"
+}

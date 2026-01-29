@@ -1,0 +1,778 @@
+[
+  {
+    "id": "744c8220-b94f-4074-bf50-484288ae923d",
+    "content": {
+      "id": "744c8220-b94f-4074-bf50-484288ae923d",
+      "contentType": "STORY",
+      "title": "Stock market today: Dow, S&P 500, Nasdaq futures slip as Tesla, Meta, Microsoft diverge after earnings",
+      "description": "",
+      "summary": "Wall Street is in the middle of Big Tech earnings, with the 'Magnificent Seven' leading moves in both directions.",
+      "pubDate": "2026-01-28T23:43:09Z",
+      "displayTime": "2026-01-29T03:21:05Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2026-01/8df70f60-fc99-11f0-bebf-3653dc1a2c89",
+        "originalWidth": 5231,
+        "originalHeight": 3487,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/VjROKZdqyxA_KuSkMWOx2A--~B/aD0zNDg3O3c9NTIzMTthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2026-01/8df70f60-fc99-11f0-bebf-3653dc1a2c89",
+            "width": 5231,
+            "height": 3487,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/erz6pU5W.aa4IWhnR.Fjkw--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://s.yimg.com/os/creatr-uploaded-images/2026-01/8df70f60-fc99-11f0-bebf-3653dc1a2c89",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Yahoo Finance",
+        "url": "http://finance.yahoo.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-slip-as-tesla-meta-microsoft-diverge-after-earnings-234309639.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/live/stock-market-today-dow-sp-500-nasdaq-futures-slip-as-tesla-meta-microsoft-diverge-after-earnings-234309639.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": true
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": {
+        "storylineItems": [
+          {
+            "content": {
+              "id": "6396b1fc-4959-4ce2-a1b2-fea608a1c010",
+              "contentType": "VIDEO",
+              "isHosted": true,
+              "title": "Tesla earnings call: Musk explains 'amazing abundance' mission",
+              "thumbnail": {
+                "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2025-07/635a5130-6893-11f0-bdfe-e1d195f771e2",
+                "originalWidth": 3000,
+                "originalHeight": 2000,
+                "caption": "",
+                "resolutions": null
+              },
+              "provider": {
+                "displayName": "Yahoo Finance Video",
+                "sourceId": "video.yahoofinance.com"
+              },
+              "previewUrl": null,
+              "providerContentUrl": "",
+              "canonicalUrl": {
+                "url": "https://finance.yahoo.com/video/tesla-earnings-call-musk-explains-amazing-abundance-mission-233551778.html"
+              },
+              "clickThroughUrl": {
+                "url": "https://finance.yahoo.com/video/tesla-earnings-call-musk-explains-amazing-abundance-mission-233551778.html"
+              }
+            }
+          },
+          {
+            "content": {
+              "id": "f9fd465c-b661-4d27-8f52-3743f21cf57c",
+              "contentType": "STORY",
+              "isHosted": true,
+              "title": "Tesla stock climbs on Q4 earnings beat, Optimus robots on track for end-of-year production",
+              "thumbnail": {
+                "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2025-07/826570e0-577d-11f0-bce7-0bd944da60af",
+                "originalWidth": 7816,
+                "originalHeight": 5210,
+                "caption": "",
+                "resolutions": null
+              },
+              "provider": {
+                "displayName": "Yahoo Finance",
+                "sourceId": "yahoofinance.com"
+              },
+              "previewUrl": null,
+              "providerContentUrl": "",
+              "canonicalUrl": {
+                "url": "https://finance.yahoo.com/news/tesla-stock-climbs-on-q4-earnings-beat-optimus-robots-on-track-for-end-of-year-production-211804761.html"
+              },
+              "clickThroughUrl": {
+                "url": "https://finance.yahoo.com/news/tesla-stock-climbs-on-q4-earnings-beat-optimus-robots-on-track-for-end-of-year-production-211804761.html"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "19cd1080-a43d-4393-8ed1-77d2b30d3322",
+    "content": {
+      "id": "19cd1080-a43d-4393-8ed1-77d2b30d3322",
+      "contentType": "STORY",
+      "title": "Earnings live: IBM stock surges, Whirlpool slides; Meta, Microsoft, Tesla report beats across the board",
+      "description": "",
+      "summary": "The fourth quarter earnings season kicks into high gear this week, with Big Tech results from Microsoft, Meta, Tesla, and Apple headlining the earnings calendar.",
+      "pubDate": "2026-01-28T21:39:48Z",
+      "displayTime": "2026-01-28T23:04:13Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2025-11/77d46bd0-bbb5-11f0-b4e3-7e0e9c886103",
+        "originalWidth": 6948,
+        "originalHeight": 4936,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/w4EDmy2Jefuz6cn.CDzKXg--~B/aD00OTM2O3c9Njk0ODthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2025-11/77d46bd0-bbb5-11f0-b4e3-7e0e9c886103",
+            "width": 6948,
+            "height": 4936,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/TuVRg._cJ01p2aKQXwVL_w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://s.yimg.com/os/creatr-uploaded-images/2025-11/77d46bd0-bbb5-11f0-b4e3-7e0e9c886103",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Yahoo Finance",
+        "url": "http://finance.yahoo.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/live/earnings-live-ibm-stock-surges-whirlpool-slides-meta-microsoft-tesla-report-beats-across-the-board-213948822.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/live/earnings-live-ibm-stock-surges-whirlpool-slides-meta-microsoft-tesla-report-beats-across-the-board-213948822.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": true
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": {
+        "storylineItems": [
+          {
+            "content": {
+              "id": "c07d91c1-fbfa-4e80-8ac5-cf841c03c4e7",
+              "contentType": "VIDEO",
+              "isHosted": true,
+              "title": "Tesla is still the 'king of US EVs,' but for how much longer?",
+              "thumbnail": {
+                "originalUrl": "https://s.yimg.com/uu/api/res/1.2/BOxQQIMlbGC_OcSsdzXRUA--~B/aD0yMzAwO3c9MzUwMDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-01/ac68914a-dfd7-4cf6-ae7b-9f86cb8ffee7",
+                "originalWidth": 3500,
+                "originalHeight": 2300,
+                "caption": "",
+                "resolutions": null
+              },
+              "provider": {
+                "displayName": "Yahoo Finance Video",
+                "sourceId": "video.yahoofinance.com"
+              },
+              "previewUrl": null,
+              "providerContentUrl": "",
+              "canonicalUrl": {
+                "url": "https://finance.yahoo.com/video/tesla-is-still-the-king-of-us-evs-but-for-how-much-longer-230000496.html"
+              },
+              "clickThroughUrl": {
+                "url": "https://finance.yahoo.com/video/tesla-is-still-the-king-of-us-evs-but-for-how-much-longer-230000496.html"
+              }
+            }
+          },
+          {
+            "content": {
+              "id": "48f7aa1f-4848-4501-b9b5-0d73140a1e1a",
+              "contentType": "VIDEO",
+              "isHosted": true,
+              "title": "Tesla to end Model X & S as Optimus robots take production lines",
+              "thumbnail": {
+                "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2025-11/ad51b9b0-bbe3-11f0-bfdd-a66f12b0bb29",
+                "originalWidth": 4000,
+                "originalHeight": 2667,
+                "caption": "",
+                "resolutions": null
+              },
+              "provider": {
+                "displayName": "Yahoo Finance Video",
+                "sourceId": "video.yahoofinance.com"
+              },
+              "previewUrl": null,
+              "providerContentUrl": "",
+              "canonicalUrl": {
+                "url": "https://finance.yahoo.com/video/tesla-to-end-model-x--s-as-optimus-robots-take-production-lines-225511510.html"
+              },
+              "clickThroughUrl": {
+                "url": "https://finance.yahoo.com/video/tesla-to-end-model-x--s-as-optimus-robots-take-production-lines-225511510.html"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "743ca737-749f-4e63-a5be-fff7f6f9ec3f",
+    "content": {
+      "id": "743ca737-749f-4e63-a5be-fff7f6f9ec3f",
+      "contentType": "STORY",
+      "title": "Stock market today: S&P 500 slips from record as Fed stands pat, Nasdaq rises before Big Tech earnings flurry",
+      "description": "",
+      "summary": "The Fed's rate decision and 'Magnificent Seven' earnings from Microsoft, Meta, and Tesla are in focus.",
+      "pubDate": "2026-01-28T21:01:19Z",
+      "displayTime": "2026-01-28T22:01:41Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2026-01/66d01a20-fbd7-11f0-87fb-7ab32c2bdfea",
+        "originalWidth": 5971,
+        "originalHeight": 3980,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/Yc7px4rg53cUF_keSAg_Dw--~B/aD0zOTgwO3c9NTk3MTthcHBpZD15dGFjaHlvbg--/https://s.yimg.com/os/creatr-uploaded-images/2026-01/66d01a20-fbd7-11f0-87fb-7ab32c2bdfea",
+            "width": 5971,
+            "height": 3980,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/Xo2eT_dO_Gpzzh0kKOiK2w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://s.yimg.com/os/creatr-uploaded-images/2026-01/66d01a20-fbd7-11f0-87fb-7ab32c2bdfea",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Yahoo Finance",
+        "url": "http://finance.yahoo.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/live/stock-market-today-sp-500-slips-from-record-as-fed-stands-pat-nasdaq-rises-before-big-tech-earnings-flurry-210119313.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/live/stock-market-today-sp-500-slips-from-record-as-fed-stands-pat-nasdaq-rises-before-big-tech-earnings-flurry-210119313.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": true
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": {
+        "storylineItems": [
+          {
+            "content": {
+              "id": "4822a16a-2232-46ff-999f-3c516813800e",
+              "contentType": "VIDEO",
+              "isHosted": true,
+              "title": "Tesla posts earnings beat, but revenue falls short",
+              "thumbnail": {
+                "originalUrl": "https://s.yimg.com/uu/api/res/1.2/cb.UeOWYO7yUntLxC.leoA--~B/aD00MDAwO3c9NjAwMDthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-01/a54ab296-fcc4-4f93-88ba-f4a45b2c2b9d",
+                "originalWidth": 6000,
+                "originalHeight": 4000,
+                "caption": "",
+                "resolutions": null
+              },
+              "provider": {
+                "displayName": "Yahoo Finance Video",
+                "sourceId": "video.yahoofinance.com"
+              },
+              "previewUrl": null,
+              "providerContentUrl": "",
+              "canonicalUrl": {
+                "url": "https://finance.yahoo.com/video/tesla-posts-earnings-beat-but-revenue-falls-short-211706682.html"
+              },
+              "clickThroughUrl": {
+                "url": "https://finance.yahoo.com/video/tesla-posts-earnings-beat-but-revenue-falls-short-211706682.html"
+              }
+            }
+          },
+          {
+            "content": {
+              "id": "fa7a64bf-228d-4abb-a321-1f5f6c234684",
+              "contentType": "VIDEO",
+              "isHosted": true,
+              "title": "Tech fuels stocks, Fed decision, Amazon layoffs: 3 Things",
+              "thumbnail": {
+                "originalUrl": "https://s.yimg.com/uu/api/res/1.2/IBFvJPchgfiHZanmaR8Q9A--~B/aD01NDAxO3c9ODA5NzthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-01/ce29f4c4-3adb-41e8-ab99-b04fa84ca09c",
+                "originalWidth": 8097,
+                "originalHeight": 5401,
+                "caption": "",
+                "resolutions": null
+              },
+              "provider": {
+                "displayName": "Yahoo Finance Video",
+                "sourceId": "video.yahoofinance.com"
+              },
+              "previewUrl": null,
+              "providerContentUrl": "",
+              "canonicalUrl": {
+                "url": "https://finance.yahoo.com/video/tech-fuels-stocks-fed-decision-amazon-layoffs-3-things-140715456.html"
+              },
+              "clickThroughUrl": {
+                "url": "https://finance.yahoo.com/video/tech-fuels-stocks-fed-decision-amazon-layoffs-3-things-140715456.html"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "f51db02f-4cee-48ee-bbea-6d976d23f602",
+    "content": {
+      "id": "f51db02f-4cee-48ee-bbea-6d976d23f602",
+      "contentType": "VIDEO",
+      "title": "Microsoft & Meta earnings: What investors want to know about AI",
+      "description": "<p>All eyes will be on Big Tech this week as Wall Street awaits the release of earnings from Meta Platforms (<a target=\"_blank\" rel=\"\" class=\"linkDecorator_linkStyle__yM-Nh link\" href=\"https://finance.yahoo.com/quote/META?p=META&.tsrc=fin-srch\" data-i13n=\"slk:META;cpos:1;pos:1\">META</a>), Microsoft (<a target=\"_blank\" rel=\"\" class=\"linkDecorator_linkStyle__yM-Nh link\" href=\"https://finance.yahoo.com/quote/MSFT?p=MSFT&.tsrc=fin-srch\" data-i13n=\"slk:MSFT;cpos:2;pos:1\">MSFT</a>), Apple (<a target=\"_blank\" rel=\"\" class=\"linkDecorator_linkStyle__yM-Nh link\" href=\"https://finance.yahoo.com/quote/AAPL/\" data-i13n=\"slk:AAPL;cpos:3;pos:1\">AAPL</a>), and Tesla (<a target=\"_blank\" rel=\"\" class=\"linkDecorator_linkStyle__yM-Nh link\" href=\"https://finance.yahoo.com/quote/TSLA?p=TSLA&.tsrc=fin-srch\" data-i13n=\"slk:TSLA;cpos:4;pos:1\">TSLA</a>).</p><p>Tematica Research Chief Investment Officer Chris Versace focuses on Meta and Microsoft, and what he expects to hear from the two tech giants' AI spending and Meta's advertising revenue figures.</p><p>To watch more expert insights and analysis on the latest market action, check out more <a target=\"_blank\" rel=\"\" class=\"link\" href=\"https://finance.yahoo.com/videos/series/opening-bid/\" data-i13n=\"slk:Opening Bid;cpos:5;pos:1\">Opening Bid</a>.</p>",
+      "summary": "All eyes will be on Big Tech this week as Wall Street awaits the release of earnings from Meta Platforms (META), Microsoft (MSFT), Apple (AAPL), and Tesla (TSLA).Tematica Research Chief Investment Officer Chris Versace focuses on Meta and Microsoft, and what he expects to hear from the two tech giants' AI spending and Meta's advertising revenue figures.To watch more expert insights and analysis on the latest market action, check out more&nbsp;Opening Bid.",
+      "pubDate": "2026-01-28T11:30:00Z",
+      "displayTime": "",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://s.yimg.com/uu/api/res/1.2/G9lz_Rs_iZh_8JmYPOR4Fw--~B/aD0zODUyO3c9NTc0OTthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-01/48cfb750-887e-45eb-9878-44382f0e0fac",
+        "originalWidth": 5749,
+        "originalHeight": 3852,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/G9lz_Rs_iZh_8JmYPOR4Fw--~B/aD0zODUyO3c9NTc0OTthcHBpZD15dGFjaHlvbg--/https://d29szjachogqwa.cloudfront.net/images/2026-01/48cfb750-887e-45eb-9878-44382f0e0fac",
+            "width": 5749,
+            "height": 3852,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/41zQ4IH8MSl4o2lLoLdg6w--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://d29szjachogqwa.cloudfront.net/images/2026-01/48cfb750-887e-45eb-9878-44382f0e0fac",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Yahoo Finance Video",
+        "url": "https://finance.yahoo.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/video/microsoft--meta-earnings-what-investors-want-to-know-about-ai-113000450.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/video/microsoft--meta-earnings-what-investors-want-to-know-about-ai-113000450.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": true
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "79b800ed-dfed-4550-8220-c696e008a8b9",
+    "content": {
+      "id": "79b800ed-dfed-4550-8220-c696e008a8b9",
+      "contentType": "VIDEO",
+      "title": "Why Tesla investors feel 'a lot of caution' ahead of Q4 earnings",
+      "description": "<p>Tesla (<a target=\"_blank\" rel=\"\" class=\"link\" href=\"https://finance.yahoo.com/quote/TSLA/\" data-i13n=\"cpos:1;pos:1\">TSLA</a>) reports its fourth quarter earnings results on Wednesday, Jan. 28 after markets close.</p><p>CFRA analyst Garrett Nelson joins Market Catalysts host <a target=\"_blank\" rel=\"\" class=\"link\" href=\"https://finance.yahoo.com/author/julie-hyman/?fr=sycsrp_catchall\" data-i13n=\"slk:Julie Hyman;cpos:2;pos:1\">Julie Hyman</a> to discuss the electric vehicle (EV) maker's upcoming earnings print.</p><p>To watch more expert insights and analysis on the latest market action, check out more <a target=\"_blank\" rel=\"\" class=\"link\" href=\"https://finance.yahoo.com/videos/series/market-catalysts/\" data-i13n=\"slk:Market Catalysts;cpos:3;pos:1\">Market Catalysts</a>.</p>",
+      "summary": "Tesla (TSLA) reports its fourth quarter earnings results on Wednesday, Jan. 28 after markets close.CFRA analyst Garrett Nelson joins Market Catalysts host Julie Hyman to discuss the electric vehicle (EV) maker's upcoming earnings print.To watch more expert insights and analysis on the latest market action, check out more Market Catalysts.",
+      "pubDate": "2026-01-28T11:00:00Z",
+      "displayTime": "",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://s.yimg.com/os/creatr-uploaded-images/2026-01/f271ef80-f156-11f0-bf7f-9b5e7cbef888",
+        "originalWidth": 5500,
+        "originalHeight": 3465,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/bL8HM1OvgpHcJyVm8bs4DA--~B/aD0zNDY1O3c9NTUwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2026-01/f271ef80-f156-11f0-bf7f-9b5e7cbef888",
+            "width": 5500,
+            "height": 3465,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/3TIOo0tYcuSmF23mTkAk9g--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2026-01/f271ef80-f156-11f0-bf7f-9b5e7cbef888",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Yahoo Finance Video",
+        "url": "https://finance.yahoo.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/video/why-tesla-investors-feel-a-lot-of-caution-ahead-of-q4-earnings-110000669.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/video/why-tesla-investors-feel-a-lot-of-caution-ahead-of-q4-earnings-110000669.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": true
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "5c709634-0a0d-3c86-a86a-4a1f7ae7d99a",
+    "content": {
+      "id": "5c709634-0a0d-3c86-a86a-4a1f7ae7d99a",
+      "contentType": "VIDEO",
+      "title": "'Magnificent Seven' earnings: Meta wows, Microsoft and Tesla mixed",
+      "description": "<title><body><p>STORY: Meta, Microsoft and Tesla kicked off a wave of Big Tech earnings Wednesday, and it was the Facebook parent company that did most to wow investors. </p><p>Meta saw ad revenues surge and forecast first-quarter revenue above Wall Street expectations. </p><p>It also boosted capital expenditure plans by 73% in pursuit of \"superintelligence\", or where machines surpass human performance.</p><p>The company will spend up to $135 billion, largely on AI infrastructure. </p><p>Meta shares rose 10% in extended trading following the numbers. </p><p>Microsoft also reported a big increase in capital expenditure.</p><p>But growth slowed at its cloud computing unit, damping investor hopes for a big payoff from the massive spending on artificial intelligence.</p><p>The Windows maker has enjoyed an advantage in the AI race thanks to its early bet on OpenAI.</p><p>But it faces growing competition from rivals like Google and AI agents such as Anthropic’s Claude Cowork.</p><p>They threaten both Microsoft’s AI business and its core software products. </p><p>Shares in the firm dropped over 6% in after-hours trade as investors weighed up the numbers. </p><p>There was a mixed picture at Tesla too. </p><p>Elon Musk's company says it will invest $2 billion in his AI outfit, xAI.</p><p>It also says production of its Cybercab robotaxi remains on track for this year.</p><p>The news bolsters Musk’s push to reposition Tesla as an AI and robotics company, in a shift that underpins its roughly $1.5 trillion valuation.</p><p>But flagging sales of EVs saw revenue fall about 3% in 2025, marking the company’s first annual decline.</p><p>Demand has been hit as rivals roll out newer models and some buyers are put off by Musk's often contentious rhetoric. </p><p>Tesla shares rose about 1.8% in after‑hours trade.</p></body></title>",
+      "summary": "<body><p>STORY: Meta, Microsoft and Tesla kicked off a wave of Big Tech earnings Wednesday, and it was the Facebook parent company that did most to wow investors.&nbsp;</p><p>Meta saw ad revenues surge and forecast first-quarter revenue above Wall Street expectations.&nbsp;</p><p>It also boosted capital expenditure plans by 73% in pursuit of \"superintelligence\", or where machines surpass human performance.</p><p>The company will spend up to $135 billion, largely on AI infrastructure.&nbsp;</p><p>Meta shares rose 10% in extended trading following the numbers.&nbsp;</p><p>Microsoft also reported a big increase in capital expenditure.</p><p>But growth slowed at its cloud computing unit, damping investor hopes for a big payoff from the massive spending on artificial intelligence.</p><p>The Windows maker has enjoyed an advantage in the AI race thanks to its early bet on OpenAI.</p><p>But it faces growing competition from rivals like Google and AI agents such as Anthropic’s Claude Cowork.</p><p>They threaten both Microsoft’s AI business and its core software products.&nbsp;</p><p>Shares in the firm dropped over 6% in after-hours trade as investors weighed up the numbers.&nbsp;</p><p>There was a mixed picture at Tesla too.&nbsp;</p><p>Elon&nbsp;Musk's company says it will invest $2 billion in his AI outfit, xAI.</p><p>It also says production of its Cybercab robotaxi remains on track for this year.</p><p>The news bolsters Musk’s push to reposition Tesla as an AI and robotics company, in a shift that underpins its roughly $1.5 trillion valuation.</p><p>But flagging sales of EVs saw revenue fall about 3% in 2025, marking the company’s first annual decline.</p><p>Demand has been hit as rivals roll out newer models and some buyers are put off by Musk's often contentious rhetoric.&nbsp;</p><p>Tesla shares rose about 1.8% in after‑hours trade.</p></body>",
+      "pubDate": "2026-01-29T04:33:06Z",
+      "displayTime": "",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://s.yimg.com/uu/api/res/1.2/wZl7pvCRJ0F9yxznolwyQw--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://cf-images.us-east-1.prod.boltdns.net/v1/jit/6415665815001/9d1974b2-2c21-4679-bb6a-9294510c52e3/main/1280x720/57s600ms/match/image.jpg",
+        "originalWidth": 1280,
+        "originalHeight": 720,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/wZl7pvCRJ0F9yxznolwyQw--~B/aD03MjA7dz0xMjgwO2FwcGlkPXl0YWNoeW9u/https://cf-images.us-east-1.prod.boltdns.net/v1/jit/6415665815001/9d1974b2-2c21-4679-bb6a-9294510c52e3/main/1280x720/57s600ms/match/image.jpg",
+            "width": 1280,
+            "height": 720,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/XzHR_clGJoKtq5RWQOXScA--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://cf-images.us-east-1.prod.boltdns.net/v1/jit/6415665815001/9d1974b2-2c21-4679-bb6a-9294510c52e3/main/1280x720/57s600ms/match/image.jpg",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Reuters Videos",
+        "url": "http://www.reuters.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/video/magnificent-seven-earnings-meta-wows-043306128.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/video/magnificent-seven-earnings-meta-wows-043306128.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "804add16-f68a-3cf7-9eaf-bd3e89dcd359",
+    "content": {
+      "id": "804add16-f68a-3cf7-9eaf-bd3e89dcd359",
+      "contentType": "STORY",
+      "title": "Dow Jones Futures Fall As Meta Jumps, Microsoft Slumps; Elon Musk Plans Tesla CapEx Surge",
+      "description": "",
+      "summary": "Tesla, Microsoft and Meta headlined huge earnings late after the stock market paused at record highs.",
+      "pubDate": "2026-01-29T03:57:47Z",
+      "displayTime": "2026-01-29T03:57:47Z",
+      "isHosted": false,
+      "bypassModal": false,
+      "previewUrl": "https://finance.yahoo.com/m/804add16-f68a-3cf7-9eaf-bd3e89dcd359/dow-jones-futures-fall-as.html",
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/ibd.com/684f385ad61aefe8aae4973a061ad5be",
+        "originalWidth": 1000,
+        "originalHeight": 563,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/QxKxx3wyEVtSBnTo1tl59A--~B/aD01NjM7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/ibd.com/684f385ad61aefe8aae4973a061ad5be",
+            "width": 1000,
+            "height": 563,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/yYX5qitK.R6USVX4z1u4zQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/ibd.com/684f385ad61aefe8aae4973a061ad5be",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Investor's Business Daily",
+        "url": "http://www.investors.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-tesla-meta-microsoft-earnings/?src=A00220&yptr=yahoo",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": null,
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "abd5c254-4dbf-3ae7-b866-6b2ed61e16f2",
+    "content": {
+      "id": "abd5c254-4dbf-3ae7-b866-6b2ed61e16f2",
+      "contentType": "STORY",
+      "title": "Buffett Avoided Tesla for Years — But Now His Company Will Power Elon Musk's Semis",
+      "description": "",
+      "summary": "Legendary investor Warren Buffett famously passed at investing in Tesla Inc (NASDAQ:TSLA) stock over the years in the investment portfolio of conglomerate Berkshire Hathaway Inc (NYSE:BRK)(NYSE:BRK). While Berkshire still isn't investing in Tesla stock, the company could help validate the upcoming volume production of the Tesla Semi. Berkshire Company Partners With Tesla Pilot Travel Centers, owned by Berkshire Hathaway, announced a partnership with Tesla to install Semi Chargers at multiple loc",
+      "pubDate": "2026-01-29T03:31:10Z",
+      "displayTime": "2026-01-29T03:31:10Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/Benzinga/24bb9ac779a69c85faa7e47cb526c188",
+        "originalWidth": 1000,
+        "originalHeight": 667,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/m.H7wjTcP.CxZvNP06VdYQ--~B/aD02Njc7dz0xMDAwO2FwcGlkPXl0YWNoeW9u/https://media.zenfs.com/en/Benzinga/24bb9ac779a69c85faa7e47cb526c188",
+            "width": 1000,
+            "height": 667,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/YOrkaDB0PD1YXNf9pmNDdQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/Benzinga/24bb9ac779a69c85faa7e47cb526c188",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Benzinga",
+        "url": "http://www.benzinga.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/buffett-avoided-tesla-years-now-033110953.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/buffett-avoided-tesla-years-now-033110953.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "9cda7680-0883-3292-a54a-e96c5911a2c0",
+    "content": {
+      "id": "9cda7680-0883-3292-a54a-e96c5911a2c0",
+      "contentType": "STORY",
+      "title": "Tesla plans $20 billion capital spending spree in push beyond human-driven cars",
+      "description": "",
+      "summary": "Tesla plans to more than double capital spending to a record high of more than $20 billion this year - but little of it will go to its ​traditional business of selling electric vehicles to human drivers.  The company, which last year lost its global EV sales ‌crown to China's BYD, is instead shifting investment to yet-unproven business lines such as fully autonomous vehicles and humanoid robots, based on executive comments on Wednesday's earnings ‌call.  Highlighting the change, CEO Elon Musk said Tesla would end production of its Model X SUV and Model S sedans and instead use the space in its California factory to make humanoid robots.",
+      "pubDate": "2026-01-29T02:56:46Z",
+      "displayTime": "2026-01-29T02:56:46Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/reuters-finance.com/05c1ff62043bebdcfb3a9b5fd90bfe18",
+        "originalWidth": 800,
+        "originalHeight": 535,
+        "caption": "FILE PHOTO: China International Import Expo in Shanghai",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/JaxMUsVVWYU3KjTddrI0fA--~B/aD01MzU7dz04MDA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/05c1ff62043bebdcfb3a9b5fd90bfe18",
+            "width": 800,
+            "height": 535,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/5Nmn6_on8Xhky3EsCysv2Q--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/reuters-finance.com/05c1ff62043bebdcfb3a9b5fd90bfe18",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Reuters",
+        "url": "http://www.reuters.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/tesla-plans-20-billion-capital-025646787.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/tesla-plans-20-billion-capital-025646787.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  },
+  {
+    "id": "4b4fc5d7-e976-3c91-9e69-f364eb368c93",
+    "content": {
+      "id": "4b4fc5d7-e976-3c91-9e69-f364eb368c93",
+      "contentType": "STORY",
+      "title": "End of an Era: Tesla Ends Model S and X Production",
+      "description": "",
+      "summary": "Elon Muk's decision to sunset the Model S and X marks a definitive turning point for Tesla away from its legacy EV business and toward the future.",
+      "pubDate": "2026-01-29T02:13:00Z",
+      "displayTime": "2026-01-29T02:13:00Z",
+      "isHosted": true,
+      "bypassModal": false,
+      "previewUrl": null,
+      "thumbnail": {
+        "originalUrl": "https://media.zenfs.com/en/zacks.com/bb787a1cac860da2b76fffb5ac59bcf5",
+        "originalWidth": 635,
+        "originalHeight": 400,
+        "caption": "",
+        "resolutions": [
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/uMe7oOcwTeSnDE_5nQwWIQ--~B/aD00MDA7dz02MzU7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/bb787a1cac860da2b76fffb5ac59bcf5",
+            "width": 635,
+            "height": 400,
+            "tag": "original"
+          },
+          {
+            "url": "https://s.yimg.com/uu/api/res/1.2/tANVH1m1Hdp_4D0tDObdJQ--~B/Zmk9c3RyaW07aD0xMjg7dz0xNzA7YXBwaWQ9eXRhY2h5b24-/https://media.zenfs.com/en/zacks.com/bb787a1cac860da2b76fffb5ac59bcf5",
+            "width": 170,
+            "height": 128,
+            "tag": "170x128"
+          }
+        ]
+      },
+      "provider": {
+        "displayName": "Zacks",
+        "url": "http://www.zacks.com/"
+      },
+      "canonicalUrl": {
+        "url": "https://finance.yahoo.com/news/end-era-tesla-ends-model-021300289.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "clickThroughUrl": {
+        "url": "https://finance.yahoo.com/news/end-era-tesla-ends-model-021300289.html",
+        "site": "finance",
+        "region": "US",
+        "lang": "en-US"
+      },
+      "metadata": {
+        "editorsPick": false
+      },
+      "finance": {
+        "premiumFinance": {
+          "isPremiumNews": false,
+          "isPremiumFreeNews": false
+        }
+      },
+      "storyline": null
+    }
+  }
+]
