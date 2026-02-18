@@ -27,10 +27,7 @@ if config.config_file_name is not None:
 target_metadata = Base.metadata
 
 # อ่าน DATABASE_URL จาก environment variable
-raw_database_url = os.getenv(
-    "DATABASE_URL",
-    "postgresql+asyncpg://user:password@localhost:5432/trading_db",
-)
+raw_database_url = os.getenv("DATABASE_URL")
 
 # ให้ใช้ asyncpg เสมอสำหรับ Alembic async engine
 if raw_database_url.startswith("postgres://"):

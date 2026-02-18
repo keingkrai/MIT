@@ -3,7 +3,6 @@
   "chosen_source": "alphavantage",
   "years_found": 20,
   "available_years": [
-    "2005",
     "2006",
     "2007",
     "2008",
@@ -22,10 +21,11 @@
     "2021",
     "2022",
     "2023",
-    "2024"
+    "2024",
+    "2025"
   ],
   "all_scores": {
-    "yfinance": 4,
+    "yfinance": 5,
     "finnhub": 3,
     "alphavantage": 20
   },
@@ -33,10 +33,15 @@
     "overview": {
       "name": "The Coca-Cola Company",
       "currency": "USD",
-      "marketCap": 314425901000.0,
-      "peRatio": 24.19
+      "marketCap": 338450579000.0,
+      "peRatio": 25.88
     },
     "balancesheet": {
+      "2025-12-31": {
+        "totalAssets": 104816000000.0,
+        "totalLiabilities": 70541000000.0,
+        "shareholderEquity": 32169000000.0
+      },
       "2024-12-31": {
         "totalAssets": 100549000000.0,
         "totalLiabilities": 74177000000.0,
@@ -131,14 +136,14 @@
         "totalAssets": 29963000000.0,
         "totalLiabilities": 13043000000.0,
         "shareholderEquity": 16920000000.0
-      },
-      "2005-12-31": {
-        "totalAssets": 29427000000.0,
-        "totalLiabilities": 13072000000.0,
-        "shareholderEquity": 16355000000.0
       }
     },
     "cashflow": {
+      "2025-12-31": {
+        "operatingCashFlow": 7408000000.0,
+        "capitalExpenditures": 2112000000.0,
+        "freeCashFlow": null
+      },
       "2024-12-31": {
         "operatingCashFlow": 6805000000.0,
         "capitalExpenditures": 2064000000.0,
@@ -233,14 +238,16 @@
         "operatingCashFlow": 5957000000.0,
         "capitalExpenditures": 1407000000.0,
         "freeCashFlow": null
-      },
-      "2005-12-31": {
-        "operatingCashFlow": 6423000000.0,
-        "capitalExpenditures": 899000000.0,
-        "freeCashFlow": null
       }
     },
     "incomestatement": {
+      "2025-12-31": {
+        "totalRevenue": 47941000000.0,
+        "netIncome": 13107000000.0,
+        "eps": null,
+        "interestExpense": 1654000000.0,
+        "netInterestIncome": null
+      },
       "2024-12-31": {
         "totalRevenue": 47061000000.0,
         "netIncome": 10631000000.0,
@@ -373,22 +380,15 @@
         "eps": null,
         "interestExpense": 0.0,
         "netInterestIncome": null
-      },
-      "2005-12-31": {
-        "totalRevenue": 23104000000.0,
-        "netIncome": 4872000000.0,
-        "eps": null,
-        "interestExpense": 0.0,
-        "netInterestIncome": null
       }
     }
   },
   "raw": {
     "yfinance": {
       "overview": {
-        "marketCap": 314425901056.0,
+        "marketCap": 338450579456.0,
         "sharesOutstanding": 4301608845.0,
-        "peRatio": 24.192053,
+        "peRatio": 25.881578,
         "currency": "USD",
         "name": "Coca-Cola Company (The)",
         "sector": "Consumer Defensive",
@@ -951,6 +951,64 @@
         }
       },
       "incomestatement": {
+        "2025-12-31": {
+          "Tax Effect Of Unusual Items": NaN,
+          "Tax Rate For Calcs": NaN,
+          "Normalized EBITDA": NaN,
+          "Total Unusual Items": NaN,
+          "Total Unusual Items Excluding Goodwill": NaN,
+          "Net Income From Continuing Operation Net Minority Interest": NaN,
+          "Reconciled Depreciation": NaN,
+          "Reconciled Cost Of Revenue": NaN,
+          "EBITDA": NaN,
+          "EBIT": NaN,
+          "Interest Income": NaN,
+          "Normalized Income": NaN,
+          "Net Income From Continuing And Discontinued Operation": NaN,
+          "Total Expenses": NaN,
+          "Total Operating Income As Reported": NaN,
+          "Diluted Average Shares": 4313000000.0,
+          "Basic Average Shares": 4303000000.0,
+          "Diluted EPS": 3.04,
+          "Basic EPS": 3.05,
+          "Diluted NI Availto Com Stockholders": NaN,
+          "Net Income Common Stockholders": NaN,
+          "Net Income": NaN,
+          "Minority Interests": NaN,
+          "Net Income Including Noncontrolling Interests": NaN,
+          "Net Income Continuous Operations": NaN,
+          "Tax Provision": NaN,
+          "Pretax Income": NaN,
+          "Other Income Expense": NaN,
+          "Other Non Operating Income Expenses": NaN,
+          "Special Income Charges": NaN,
+          "Gain On Sale Of Ppe": NaN,
+          "Gain On Sale Of Business": NaN,
+          "Other Special Charges": NaN,
+          "Write Off": NaN,
+          "Impairment Of Capital Assets": NaN,
+          "Restructuring And Mergern Acquisition": NaN,
+          "Earnings From Equity Interest": NaN,
+          "Gain On Sale Of Security": NaN,
+          "Net Non Operating Interest Income Expense": NaN,
+          "Interest Expense Non Operating": NaN,
+          "Interest Income Non Operating": NaN,
+          "Operating Income": NaN,
+          "Operating Expense": NaN,
+          "Other Operating Expenses": NaN,
+          "Depreciation Amortization Depletion Income Statement": NaN,
+          "Depreciation And Amortization In Income Statement": NaN,
+          "Amortization": NaN,
+          "Amortization Of Intangibles Income Statement": NaN,
+          "Selling General And Administration": NaN,
+          "Selling And Marketing Expense": NaN,
+          "General And Administrative Expense": NaN,
+          "Other Gand A": NaN,
+          "Salaries And Wages": NaN,
+          "Gross Profit": NaN,
+          "Cost Of Revenue": NaN,
+          "Operating Revenue": NaN
+        },
         "2024-12-31": {
           "Tax Effect Of Unusual Items": -369396000.0,
           "Tax Rate For Calcs": 0.186,
@@ -1141,10 +1199,10 @@
           "Net Income From Continuing And Discontinued Operation": 9771000000.0,
           "Total Expenses": 27616000000.0,
           "Total Operating Income As Reported": 10308000000.0,
-          "Diluted Average Shares": 4340000000.0,
-          "Basic Average Shares": 4315000000.0,
-          "Diluted EPS": 2.25,
-          "Basic EPS": 2.26,
+          "Diluted Average Shares": NaN,
+          "Basic Average Shares": NaN,
+          "Diluted EPS": NaN,
+          "Basic EPS": NaN,
           "Diluted NI Availto Com Stockholders": 9771000000.0,
           "Net Income Common Stockholders": 9771000000.0,
           "Net Income": 9771000000.0,
@@ -1189,7 +1247,7 @@
       "overview": {
         "name": "Coca-Cola Co",
         "currency": "USD",
-        "marketCap": 314275558304.0484
+        "marketCap": 338450588519.99994
       },
       "balancesheet": {},
       "cashflow": {},
@@ -1218,10 +1276,15 @@
       "overview": {
         "name": "The Coca-Cola Company",
         "currency": "USD",
-        "marketCap": 314425901000.0,
-        "peRatio": 24.19
+        "marketCap": 338450579000.0,
+        "peRatio": 25.88
       },
       "balancesheet": {
+        "2025-12-31": {
+          "totalAssets": 104816000000.0,
+          "totalLiabilities": 70541000000.0,
+          "shareholderEquity": 32169000000.0
+        },
         "2024-12-31": {
           "totalAssets": 100549000000.0,
           "totalLiabilities": 74177000000.0,
@@ -1316,14 +1379,14 @@
           "totalAssets": 29963000000.0,
           "totalLiabilities": 13043000000.0,
           "shareholderEquity": 16920000000.0
-        },
-        "2005-12-31": {
-          "totalAssets": 29427000000.0,
-          "totalLiabilities": 13072000000.0,
-          "shareholderEquity": 16355000000.0
         }
       },
       "cashflow": {
+        "2025-12-31": {
+          "operatingCashFlow": 7408000000.0,
+          "capitalExpenditures": 2112000000.0,
+          "freeCashFlow": null
+        },
         "2024-12-31": {
           "operatingCashFlow": 6805000000.0,
           "capitalExpenditures": 2064000000.0,
@@ -1418,14 +1481,16 @@
           "operatingCashFlow": 5957000000.0,
           "capitalExpenditures": 1407000000.0,
           "freeCashFlow": null
-        },
-        "2005-12-31": {
-          "operatingCashFlow": 6423000000.0,
-          "capitalExpenditures": 899000000.0,
-          "freeCashFlow": null
         }
       },
       "incomestatement": {
+        "2025-12-31": {
+          "totalRevenue": 47941000000.0,
+          "netIncome": 13107000000.0,
+          "eps": null,
+          "interestExpense": 1654000000.0,
+          "netInterestIncome": null
+        },
         "2024-12-31": {
           "totalRevenue": 47061000000.0,
           "netIncome": 10631000000.0,
@@ -1558,16 +1623,9 @@
           "eps": null,
           "interestExpense": 0.0,
           "netInterestIncome": null
-        },
-        "2005-12-31": {
-          "totalRevenue": 23104000000.0,
-          "netIncome": 4872000000.0,
-          "eps": null,
-          "interestExpense": 0.0,
-          "netInterestIncome": null
         }
       }
     }
   },
-  "timestamp": "2026-01-29T06:59:50.601040+00:00"
+  "timestamp": "2026-02-17T08:57:54.302182+00:00"
 }

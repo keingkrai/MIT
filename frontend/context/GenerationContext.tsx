@@ -221,8 +221,7 @@ export function GenerationProvider({ children }: { children: ReactNode }) {
             const savedMarket = localStorage.getItem("selectedMarket");
             if (savedMarket) setSelectedMarket(savedMarket);
 
-            const savedDate = localStorage.getItem("analysisDate");
-            if (savedDate) setAnalysisDate(savedDate);
+
 
             const savedDepth = localStorage.getItem("researchDepth");
             if (savedDepth) setResearchDepth(parseInt(savedDepth, 10));

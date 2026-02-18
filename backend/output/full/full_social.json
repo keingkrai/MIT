@@ -1,28 +1,23 @@
 {
     "sentiment_verdict": "Neutral",
     "social_volume": "Moderate",
-    "dominant_narrative": "Discussions around KO are varied, with a significant portion focusing on its performance as a dividend stock and its position within consumer staples. There's also notable chatter related to political entities using 'KO' as an abbreviation, which is distinct from the stock.",
+    "dominant_narrative": "Discussions around KO are primarily driven by political commentary related to the Polish coalition (KO), alongside mentions of Ko-fi for creative support and occasional financial news. There's a notable lack of direct market-moving news or strong sentiment indicators tied to KO as a stock.",
     "top_topics": [
         {
-            "topic": "KO as a Dividend Stock",
-            "sentiment": "Positive",
-            "analysis_snippet": "There is positive sentiment regarding KO as a stable dividend-paying stock, suitable for income-focused portfolios."
+            "topic": "Polish Politics (KO Coalition)",
+            "sentiment": "Mixed",
+            "analysis_snippet": "Mentions of 'KO' frequently refer to the Polish Civic Coalition in political discussions, with varying opinions on its performance and alliances."
         },
         {
-            "topic": "Political discussions using 'KO'",
+            "topic": "Ko-fi Platform Usage",
             "sentiment": "Neutral",
-            "analysis_snippet": "Multiple posts mention 'KO' in a political context, particularly related to Polish politics, which is unrelated to the stock's performance."
+            "analysis_snippet": "Numerous posts mention Ko-fi, a crowdfunding platform, for artists and creators to receive support, indicating platform activity rather than company-specific sentiment."
         },
         {
-            "topic": "Technical Analysis and Market Recaps",
+            "topic": "General Market/Financial News",
             "sentiment": "Neutral",
-            "analysis_snippet": "Discussions include technical analysis concepts like Fair Value Gaps and weekly market recaps that mention KO in the context of broader market movements."
-        },
-        {
-            "topic": "Support Platforms (Ko-fi)",
-            "sentiment": "Neutral",
-            "analysis_snippet": "Frequent mentions of 'Ko-fi' as a support platform for artists and creators, which is a common abbreviation unrelated to the stock symbol."
+            "analysis_snippet": "Sporadic mentions of KO in financial contexts, such as Nasdaq reports or options activity, but without significant sentiment drivers or substantial discussion volume during this period."
         }
     ],
-    "psychology": "The crowd psychology appears to be neutral, with a lack of strong directional sentiment. There is no indication of significant fear or greed, suggesting a steady, information-gathering phase among social media users discussing KO."
+    "psychology": "The psychology observed is largely neutral, with discussions fragmented across political commentary, creative platform usage, and generic financial mentions. There is no clear indication of widespread Fear Of Missing Out or capitulation sentiment directly related to KO as a stock."
 }

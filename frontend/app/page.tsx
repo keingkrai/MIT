@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { jsPDF } from "jspdf";
+import { registerSarabunFont } from "@/lib/fonts/registerSarabunFont";
 import ReportSections from "../components/ReportSections";
 import { buildApiUrl, buildWsUrl, mapFetchError } from "@/lib/api";
 import { useGeneration } from "../context/GenerationContext";
@@ -1062,67 +1063,14 @@ export default function Home() {
     // 1. Setup Document
     const doc = new jsPDF({ unit: "pt", format: "a4" });
 
-    // Load Fonts Implementation with validation
-    const loadFont = async (url: string): Promise<string | null> => {
-      try {
-        const response = await fetch(url);
-        if (!response.ok) {
-          console.warn(`Font not found: ${url}`);
-          return null;
-        }
-        const blob = await response.blob();
-        // Validate font file size (should be more than 1KB for valid TTF)
-        if (blob.size < 1000) {
-          console.warn(`Invalid font file (too small): ${url}`);
-          return null;
-        }
-        return new Promise((resolve) => {
-          const reader = new FileReader();
-          reader.onloadend = () => {
-            const base64data = (reader.result as string).split(",")[1];
-            resolve(base64data);
-          };
-          reader.onerror = () => resolve(null);
-          reader.readAsDataURL(blob);
-        });
-      } catch (error) {
-        console.warn(`Failed to load font: ${url}`, error);
-        return null;
-      }
-    };
+    // Register Sarabun fonts (Thai/English) using pre-encoded base64
+    const hasSarabun = registerSarabunFont(doc);
+    if (!hasSarabun) {
+      console.error("Failed to register Sarabun fonts - Thai text will not render correctly");
+    }
 
     // Track which fonts are available
-    let hasMaishan = false;
-
-    // Load Sarabun fonts (required for Thai)
-    try {
-      const sarabunRegular = await loadFont("/fonts/Sarabun-Regular.ttf");
-      const sarabunBold = await loadFont("/fonts/Sarabun-Bold.ttf");
-
-      if (sarabunRegular) {
-        doc.addFileToVFS("Sarabun-Regular.ttf", sarabunRegular);
-        doc.addFont("Sarabun-Regular.ttf", "Sarabun", "normal");
-      }
-
-      if (sarabunBold) {
-        doc.addFileToVFS("Sarabun-Bold.ttf", sarabunBold);
-        doc.addFont("Sarabun-Bold.ttf", "Sarabun", "bold");
-      }
-    } catch (error) {
-      console.error("Error loading Sarabun fonts:", error);
-    }
-
-    // Load Maishan font (optional, for Chinese characters)
-    try {
-      const maishan = await loadFont("/fonts/Maishan.ttf");
-      if (maishan) {
-        doc.addFileToVFS("Maishan.ttf", maishan);
-        doc.addFont("Maishan.ttf", "Maishan", "normal");
-        hasMaishan = true;
-      }
-    } catch (error) {
-      console.warn("Maishan font not available, Chinese characters may not render correctly");
-    }
+    const hasMaishan = false;
 
     const pageWidth = doc.internal.pageSize.getWidth();
     const pageHeight = doc.internal.pageSize.getHeight();
@@ -1328,26 +1276,8 @@ export default function Home() {
       const isThai = langCode === "th";
       const isSummaryReport = reportType === "summary";
 
-      // Re-add fonts to this document
-      const addFontsToDoc = async () => {
-        try {
-          const sarabunRegular = await loadFont("/fonts/Sarabun-Regular.ttf");
-          const sarabunBold = await loadFont("/fonts/Sarabun-Bold.ttf");
-          if (sarabunRegular) {
-            singleDoc.addFileToVFS("Sarabun-Regular.ttf", sarabunRegular);
-            singleDoc.addFont("Sarabun-Regular.ttf", "Sarabun", "normal");
-          }
-          if (sarabunBold) {
-            singleDoc.addFileToVFS("Sarabun-Bold.ttf", sarabunBold);
-            singleDoc.addFont("Sarabun-Bold.ttf", "Sarabun", "bold");
-          }
-        } catch (e) {
-          console.warn("Font loading failed for separate PDF");
-        }
-      };
-
-      // IMPORTANT: Await font loading fixes Thai characters
-      await addFontsToDoc();
+      // Register Sarabun fonts (Thai/English) using pre-encoded base64
+      registerSarabunFont(singleDoc);
 
       // Helper functions scoped to this document
       let docYPosition = margin + 20;

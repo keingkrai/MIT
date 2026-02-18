@@ -4,10 +4,10 @@
     "selected_indicators": [
         "close_50_sma",
         "close_10_ema",
+        "rsi",
         "macd",
         "macds",
         "macdh",
-        "rsi",
         "boll",
         "boll_ub",
         "boll_lb",
@@ -24,82 +24,77 @@
         {
             "indicator": "close_50_sma",
             "indicator_full_name": "50-day Simple Moving Average",
-            "signal": "Price is above the 50-day SMA.",
-            "implication": "This suggests a generally positive or neutral short-to-medium term trend."
+            "signal": "The 50-day SMA is at 70.34 and is trending upwards slightly. The current price of 70.44 is just above the 50-day SMA.",
+            "implication": "The price is hovering around the 50-day SMA, indicating a potential consolidation or a shift in trend. A break above could signal bullish momentum, while a break below might suggest bearish pressure."
         },
         {
             "indicator": "close_10_ema",
             "indicator_full_name": "10-day Exponential Moving Average",
-            "signal": "Price is above the 10-day EMA.",
-            "implication": "This indicates a short-term bullish sentiment."
-        },
-        {
-            "indicator": "macd",
-            "indicator_full_name": "Moving Average Convergence Divergence",
-            "signal": "MACD line (0.1168) is above the signal line (-0.0714).",
-            "implication": "This suggests upward momentum is present or strengthening."
-        },
-        {
-            "indicator": "macdh",
-            "indicator_full_name": "MACD Histogram",
-            "signal": "MACD histogram is positive (0.1882).",
-            "implication": "This indicates that the MACD line is above the signal line, suggesting bullish momentum."
+            "signal": "The 10-day EMA is at 70.23 and is trending upwards. The current price of 70.44 is above the 10-day EMA.",
+            "implication": "The price being above the 10-day EMA suggests short-term upward momentum. However, the proximity of the price to the EMA indicates that this momentum is not exceptionally strong."
         },
         {
             "indicator": "rsi",
             "indicator_full_name": "Relative Strength Index",
-            "signal": "RSI is 52.94.",
-            "implication": "The RSI is in the neutral zone, indicating neither overbought nor oversold conditions, suggesting a balanced market."
+            "signal": "The RSI is at 52.94, which is in the neutral territory.",
+            "implication": "The RSI indicates that the asset is neither overbought nor oversold, suggesting a balanced market with no immediate strong buying or selling pressure."
+        },
+        {
+            "indicator": "macd",
+            "indicator_full_name": "Moving Average Convergence Divergence",
+            "signal": "The MACD is at 0.1168, its signal line (MACDS) is at -0.0714, and the histogram (MACDH) is at 0.1882. The MACD is above the signal line and the histogram is positive.",
+            "implication": "The MACD being positive and above the signal line suggests bullish momentum, though the relatively small positive histogram indicates that this momentum is not very strong and might be waning."
         },
         {
             "indicator": "boll",
-            "indicator_full_name": "Bollinger Bands Middle Line",
-            "signal": "Price (70.44) is above the middle Bollinger Band (69.85).",
-            "implication": "This indicates a bullish bias in the short term."
+            "indicator_full_name": "Bollinger Bands",
+            "signal": "The current price of 70.44 is trading near the middle Bollinger Band (70.95), which is also close to the 50-day SMA.",
+            "implication": "The price is neither at the upper nor lower band, indicating a period of consolidation or moderate volatility. The proximity to the middle band suggests a neutral stance."
         },
         {
             "indicator": "boll_ub",
-            "indicator_full_name": "Upper Bollinger Band",
-            "signal": "Price (70.44) is below the upper Bollinger Band (71.88).",
-            "implication": "The price is not at the extreme upper end of its recent range."
+            "indicator_full_name": "Bollinger Bands Upper Band",
+            "signal": "The upper Bollinger Band is at 71.88.",
+            "implication": "The upper band acts as a potential resistance level. The price is currently below this level."
         },
         {
             "indicator": "boll_lb",
-            "indicator_full_name": "Lower Bollinger Band",
-            "signal": "Price (70.44) is above the lower Bollinger Band (67.83).",
-            "implication": "The price is not at the extreme lower end of its recent range."
+            "indicator_full_name": "Bollinger Bands Lower Band",
+            "signal": "The lower Bollinger Band is at 67.83.",
+            "implication": "The lower band acts as a potential support level. The price is currently well above this level."
         },
         {
             "indicator": "atr",
             "indicator_full_name": "Average True Range",
-            "signal": "ATR is 0.9239.",
-            "implication": "This indicates moderate volatility."
+            "signal": "The ATR is 0.9239, indicating moderate volatility.",
+            "implication": "The current level of volatility is within a typical range, suggesting no extreme price swings are expected in the short term."
         },
         {
             "indicator": "vwma",
             "indicator_full_name": "Volume Weighted Moving Average",
-            "signal": "Price (70.44) is above the VWMA (69.79).",
-            "implication": "This suggests that the recent price action, weighted by volume, is in an uptrend."
+            "signal": "The VWMA is at 69.79.",
+            "implication": "The current price is trading above the VWMA, which can be interpreted as a slight bullish signal when considering volume-weighted price action."
         }
     ],
     "price_action_summary": {
-        "recent_high_low": "Trading near the upper end of the recent range, but below the Bollinger Band upper limit.",
+        "recent_high_low": "The current price of 70.44 is trading between the recent high of 72.61 (2025-11-28) and a recent low around 67.54 (2026-01-08).",
         "support_levels": [
-            "70.00",
-            "69.00"
+            "70.11 (2025-11-14)",
+            "69.87 (2025-12-26)"
         ],
         "resistance_levels": [
-            "71.00",
-            "71.88"
+            "71.01 (2025-11-12)",
+            "71.95 (2025-12-01)"
         ],
-        "short_term_behavior": "The price has shown a recent upward movement, trading above key short-term moving averages and approaching recent highs."
+        "short_term_behavior": "The price has been consolidating in a range between approximately 70.00 and 71.00 in the last few weeks, with a recent uptick from the lows of early January."
     },
     "market_sentiment": {
-        "sentiment_label": "Bullish"
+        "sentiment_label": "Neutral"
     },
     "key_risks": [
-        "Potential for a pullback if resistance at the upper Bollinger Band is not overcome.",
-        "The RSI in the neutral zone could indicate a lack of strong conviction."
+        "The price is trading within a sideways channel, indicating a lack of clear directional momentum.",
+        "The MACD histogram is positive but small, suggesting that bullish momentum may not be sustained.",
+        "The RSI is in neutral territory, providing no strong indication of overbought or oversold conditions."
     ],
-    "short_term_outlook": "The stock shows a slightly bullish short-term outlook, supported by its position above key moving averages and positive MACD signals, but faces resistance near the upper Bollinger Band. Volatility remains moderate."
+    "short_term_outlook": "The stock is exhibiting sideways price action with neutral momentum. Key resistance is observed around 71.00-71.90, while support lies near 70.00-69.87. A potential breakout above resistance could signal a bullish trend, while a fall below support might indicate a bearish move. Current indicators suggest a neutral to slightly bullish short-term outlook."
 }

@@ -6,6 +6,7 @@ import React, { useState, useEffect } from "react";
 import { Download } from "lucide-react";
 import { useLanguage } from "../../context/LanguageContext";
 import { jsPDF } from "jspdf";
+import { registerSarabunFont } from "@/lib/fonts/registerSarabunFont";
 import { useGeneration } from "../../context/GenerationContext";
 import { getApiUrl } from "../../lib/api";
 
@@ -686,69 +687,11 @@ export default function HistoryPage() {
         // 1. Setup Document
         const doc = new jsPDF({ unit: "pt", format: "a4" });
 
-        // Load Fonts Implementation with validation
-        const loadFont = async (url: string): Promise<string | null> => {
-            try {
-                const response = await fetch(url);
-                if (!response.ok) {
-                    console.warn(`Font not found: ${url}`);
-                    return null;
-                }
-                const blob = await response.blob();
-
-                // Validate font file size (should be more than 1KB for valid TTF)
-                if (blob.size < 1000) {
-                    console.warn(`Invalid font file (too small): ${url}`);
-                    return null;
-                }
-
-                return new Promise((resolve) => {
-                    const reader = new FileReader();
-                    reader.onloadend = () => {
-                        const base64data = (reader.result as string).split(",")[1];
-                        resolve(base64data);
-                    };
-                    reader.onerror = () => resolve(null);
-                    reader.readAsDataURL(blob);
-                });
-            } catch (error) {
-                console.warn(`Failed to load font: ${url}`, error);
-                return null;
-            }
-        };
+        // Register Sarabun fonts (Thai/English) using pre-encoded base64
+        registerSarabunFont(doc);
 
         // Track which fonts are available
-        let hasMaishan = false;
-
-        // Load Sarabun fonts (required for Thai)
-        try {
-            const sarabunRegular = await loadFont("/fonts/Sarabun-Regular.ttf");
-            const sarabunBold = await loadFont("/fonts/Sarabun-Bold.ttf");
-
-            if (sarabunRegular) {
-                doc.addFileToVFS("Sarabun-Regular.ttf", sarabunRegular);
-                doc.addFont("Sarabun-Regular.ttf", "Sarabun", "normal");
-            }
-
-            if (sarabunBold) {
-                doc.addFileToVFS("Sarabun-Bold.ttf", sarabunBold);
-                doc.addFont("Sarabun-Bold.ttf", "Sarabun", "bold");
-            }
-        } catch (error) {
-            console.error("Error loading Sarabun fonts:", error);
-        }
-
-        // Load Maishan font (optional, for Chinese characters)
-        try {
-            const maishan = await loadFont("/fonts/Maishan.ttf");
-            if (maishan) {
-                doc.addFileToVFS("Maishan.ttf", maishan);
-                doc.addFont("Maishan.ttf", "Maishan", "normal");
-                hasMaishan = true;
-            }
-        } catch (error) {
-            console.warn("Maishan font not available, Chinese characters may not render correctly");
-        }
+        const hasMaishan = false;
 
         const pageWidth = doc.internal.pageSize.getWidth();
         const pageHeight = doc.internal.pageSize.getHeight();

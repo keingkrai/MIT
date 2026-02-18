@@ -4,10 +4,7 @@ from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession
 from sqlalchemy.orm import sessionmaker, declarative_base
 
 # Database URL from environment variables
-raw_database_url = os.getenv(
-    "DATABASE_URL",
-    "postgresql+asyncpg://user:password@localhost:5432/trading_db",
-)
+raw_database_url = os.getenv("DATABASE_URL")
 
 # Safety: บังคับให้ใช้ asyncpg เสมอ แม้ .env จะตั้งเป็น postgresql:// หรือ psycopg2
 if raw_database_url.startswith("postgres://"):
@@ -19,7 +16,7 @@ elif "+psycopg2" in raw_database_url:
 
 DATABASE_URL = raw_database_url
 
-engine = create_async_engine(DATABASE_URL, echo=True)
+engine = create_async_engine(DATABASE_URL, echo=True, connect_args={"statement_cache_size": 0})
 
 AsyncSessionLocal = sessionmaker(
     engine, class_=AsyncSession, expire_on_commit=False
