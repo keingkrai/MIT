@@ -11,6 +11,4 @@ eval_data/
 .env
 notes
 notes.txt
-Dockerfile
-entrypoint.sh
-backend/Dockerfile
+
