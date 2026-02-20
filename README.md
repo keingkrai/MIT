@@ -495,6 +495,4 @@ For support and inquiries:
 <p align="center">
   <strong>Built with ❤️ using Multi-Agent AI Technology</strong>
 </p>
-#   M I T  
- #   M I T  
- "# MIT" 
+#
