@@ -476,23 +476,5 @@ npm run analyze
 
 This project is proprietary software developed for MIT Research purposes.
 
----
-
-## 👥 Team
-
-- **MIT Research Team** - Development & Architecture
-
----
-
-## 📞 Support
-
-For support and inquiries:
-- Create an issue in the repository
-- Contact via the Contact page in the application
-
----
-
-<p align="center">
-  <strong>Built with ❤️ using Multi-Agent AI Technology</strong>
-</p>
 #
+
